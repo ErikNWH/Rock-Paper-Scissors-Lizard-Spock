@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spock Rock Game</title>
     <link rel="icon" type="image/ico" href="favicon.ico" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
     <script src="https://kit.fontawesome.com/1ec2b549a4.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -21,8 +21,26 @@
         <i class="fa-regular fa-hand-back-fist" title="rock" id="playerRock"></i>
         <i class="fa-regular fa-hand" title="paper" id="playerPaper"></i>
         <i class="fa-regular fa-hand-scissors" title="scissors" id="playerPaper"></i>
+        <i class="fa-regular fa-hand-lizard" title="lizard" id="playerLizard"></i>
+        <i class="fa-regular fa-hand-spock" title="spock" id="playerSpock"></i>
+      </div>
+      <!-- Computer Container -->
+      <div class="player-container" id="computer">
+        <h2>You - <span id="computerScore">0</span> <span class="choice" id="computerChoice"> --- Choice</span></h2>
+        <i class="fa-regular fa-hand-back-fist" title="rock" id="computerRock"></i>
+        <i class="fa-regular fa-hand" title="paper" id="computerPaper"></i>
+        <i class="fa-regular fa-hand-scissors" title="scissors" id="computerPaper"></i>
+        <i class="fa-regular fa-hand-lizard" title="lizard" id="computerLizard"></i>
+        <i class="fa-regular fa-hand-spock" title="spock" id="computerSpock"></i>
+      </div>
+      <!-- Reset Icon -->
+      <i class="fa-solid fa-rotate reset-icon"></i>
+      <!-- Results Text -->
+      <div class="result-container">
+        <h3 class="result-text" id="result">You won!</h3>
       </div>
     </div>
+  </div>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
